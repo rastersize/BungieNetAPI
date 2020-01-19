@@ -5,4 +5,81 @@
 
 import Foundation
 
-public typealias DestinyHistoricalStatsDefinitionsDestinyActivityModeType = [Int]
+/** For historical reasons, this list will have both D1 and D2-relevant Activity Modes in it. Please don't take this to mean that some D1-only feature is coming back! */
+/** For historical reasons, this list will have both D1 and D2-relevant Activity Modes in it. Please don't take this to mean that some D1-only feature is coming back! */
+public enum DestinyHistoricalStatsDefinitionsDestinyActivityModeType: Int, Codable, Equatable, CaseIterable {
+    case _0 = 0
+    case _2 = 2
+    case _3 = 3
+    case _4 = 4
+    case _5 = 5
+    case _6 = 6
+    case _7 = 7
+    case _9 = 9
+    case _10 = 10
+    case _11 = 11
+    case _12 = 12
+    case _13 = 13
+    case _15 = 15
+    case _16 = 16
+    case _17 = 17
+    case _18 = 18
+    case _19 = 19
+    case _20 = 20
+    case _21 = 21
+    case _22 = 22
+    case _24 = 24
+    case _25 = 25
+    case _26 = 26
+    case _27 = 27
+    case _28 = 28
+    case _29 = 29
+    case _30 = 30
+    case _31 = 31
+    case _32 = 32
+    case _37 = 37
+    case _38 = 38
+    case _39 = 39
+    case _40 = 40
+    case _41 = 41
+    case _42 = 42
+    case _43 = 43
+    case _44 = 44
+    case _45 = 45
+    case _46 = 46
+    case _47 = 47
+    case _48 = 48
+    case _49 = 49
+    case _50 = 50
+    case _51 = 51
+    case _52 = 52
+    case _53 = 53
+    case _54 = 54
+    case _55 = 55
+    case _56 = 56
+    case _57 = 57
+    case _58 = 58
+    case _59 = 59
+    case _60 = 60
+    case _61 = 61
+    case _62 = 62
+    case _63 = 63
+    case _64 = 64
+    case _65 = 65
+    case _66 = 66
+    case _67 = 67
+    case _68 = 68
+    case _69 = 69
+    case _70 = 70
+    case _71 = 71
+    case _72 = 72
+    case _73 = 73
+    case _74 = 74
+    case _75 = 75
+    case _76 = 76
+    case _77 = 77
+    case _78 = 78
+    case _79 = 79
+    case _80 = 80
+    case _81 = 81
+}

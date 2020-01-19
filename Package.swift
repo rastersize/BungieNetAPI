@@ -12,7 +12,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "BungieNetAPI", dependencies: [
-          "",
+          "Alamofire",
         ], path: "Sources")
     ]
 )
